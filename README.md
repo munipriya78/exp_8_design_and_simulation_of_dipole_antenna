@@ -91,19 +91,14 @@ The antenna is usually fed at the centre gap using a **lumped port** or a **wave
 
 ## Observations
 
-*(Include your own table / plots relevant to the experiment.)*
+<img width="980" height="742" alt="image" src="https://github.com/user-attachments/assets/b0e0d82d-e441-4e1e-b347-698015283a96" />
 
+<img width="972" height="566" alt="image" src="https://github.com/user-attachments/assets/f0a43dc3-608f-4f32-8893-f8b442a2a8d4" />
 
-### Graphs
+<img width="982" height="653" alt="image" src="https://github.com/user-attachments/assets/4c582ed7-e956-494d-8a43-19592bafb5ec" />
 
-* S11 vs frequency
-*(Include your own graph)*
+<img width="806" height="288" alt="image" src="https://github.com/user-attachments/assets/4c0c805e-dfaf-4a63-a0c4-34e1b75fa237" />
 
-* VSWR vs frequency
-*(Include your own graph)*
-
-* 2-D E-plane and H-plane radiation patterns
-*(Include your own graph)*
 ---
 
 ## Precautions
