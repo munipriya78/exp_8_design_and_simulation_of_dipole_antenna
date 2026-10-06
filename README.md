@@ -47,22 +47,6 @@ The radius of the dipole conductor is generally chosen such that L/d (length-to-
 
 The antenna is usually fed at the centre gap using a **lumped port** or a **wave port**, and its performance is evaluated using the reflection coefficient (S11), VSWR, gain, directivity and 3-D radiation pattern obtained from the simulation.
 
----
-
-## Design Specifications
-
-| Parameter | Value |
-|---|---|
-| Operating frequency (f) | ______ GHz |
-| Wavelength, λ = c/f | ______ mm |
-| Dipole length, L = λ/2 | ______ mm |
-| Arm length, L/2 | ______ mm |
-| Conductor radius | ______ mm |
-| Feed gap | ______ mm |
-| Substrate / boundary | Radiation box (λ/4 air-buffer on all sides) |
-
----
-
 ## Procedure
 
 1. **Launch Ansys HFSS** and create a new project. Insert an **HFSS Design** with solution type **Driven Modal**.
@@ -91,13 +75,9 @@ The antenna is usually fed at the centre gap using a **lumped port** or a **wave
 
 ## Observations
 
-<img width="980" height="742" alt="image" src="https://github.com/user-attachments/assets/b0e0d82d-e441-4e1e-b347-698015283a96" />
+<img width="1200" height="1600" alt="WhatsApp Image 2026-10-06 at 10 34 20 AM" src="https://github.com/user-attachments/assets/8be4c1b3-6a41-48b2-88da-9be25ee7ef8c" />
 
-<img width="972" height="566" alt="image" src="https://github.com/user-attachments/assets/f0a43dc3-608f-4f32-8893-f8b442a2a8d4" />
-
-<img width="982" height="653" alt="image" src="https://github.com/user-attachments/assets/4c582ed7-e956-494d-8a43-19592bafb5ec" />
-
-<img width="806" height="288" alt="image" src="https://github.com/user-attachments/assets/4c0c805e-dfaf-4a63-a0c4-34e1b75fa237" />
+<img width="1200" height="1600" alt="WhatsApp Image 2026-10-06 at 10 34 32 AM" src="https://github.com/user-attachments/assets/04ac9a15-f8b1-423d-8535-16a01418e9af" />
 
 ---
 
@@ -107,16 +87,6 @@ The antenna is usually fed at the centre gap using a **lumped port** or a **wave
 2. Mesh the model finely enough (especially near the feed gap) for accurate convergence.
 3. Verify that the port impedance matches the intended feed impedance before analysing S11/VSWR.
 4. Check for geometry validation errors before running the simulation.
-
-## Result
- 
-Resonant Frequency = GHz  
-
-Return loss = dB
-
-VSWR = 
-
-Gain = 
 
 ## Conclusion
 
